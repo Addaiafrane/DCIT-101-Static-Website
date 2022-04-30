@@ -1,0 +1,164 @@
+<doctype html>
+    <html>
+    <head>
+        <style>
+        /* Home Section */
+            #Home {
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(0,0,0,0.5);
+            }
+            #Home{
+                background: url(./Afrane.webp) no-repeat center center/cover;
+                height: 900px;
+                width: 100%;
+             }
+             .main{
+                 margin: 250px;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+            }
+            .headings{
+                     font-family: 'Times New Roman', Times, serif;
+                     font-size: 60px;
+                     text-align: center;
+                     margin: 40px 0px;
+                     color: rgb(243, 4, 4);
+            }
+                 .btn{
+                     padding: 10px 35px;
+                     background-color: transparent;
+                     border: 1px solid white;
+                     color: rgb(255, 255, 255);
+                     outline: none;
+                     transition: .6s ease;
+                     }
+                 .btn:hover{
+                         cursor: pointer;
+                         background-color: rgb(0, 0, 0);
+                         box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+                         font-weight: bold;
+
+                     }             
+
+            .text{
+                background-color:rgb(0, 0, 0);
+            }
+            ul li:hover{
+                background-color: rgb(0, 0, 0);
+            }
+            
+                .txt{
+                /* position: absolute; */
+                left: 10%;
+                top: 66%; 
+                width: 700px;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+            /* Navbar */ 
+            .navbar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(0,0,0,0.5);
+                position: sticky;
+                top: 0;
+            } 
+            .navbar ul{
+                display: flex;
+                list-style: none;
+                margin: 20px 0px;
+                
+            } 
+            .navbar ul li{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.1rem;
+                font-weight: bold;
+            }
+            .navbar ul li a{
+                text-decoration: none;
+                color: white;
+                padding: 8px 25px;
+                transition: all .5s ease;
+            }
+            /* About */
+            #about{
+                padding: 20px;
+                margin-bottom: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            img{
+                width: 900px;
+                /* height: 400px; */
+            }
+            #intro{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+            }
+            #intro h2{
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+
+             
+             
+        
+    
+        </style>
+    </head>  
+    <body>
+        <nav class="navbar">
+        <ul type="none">
+        <li> <a href="#Home">Home</a></li>
+        <li> <a href="#About"> About</a></li>
+        <li> <a href=""> Order</a></li>
+        <li> <a href=""> contact</a></li>
+        
+    
+        </ul>
+        </nav>
+
+        <selection id="Home">
+            <div class="main">
+                <h3 class="headings">
+                    Naddai Fashion Design
+                    </h3>
+                    <button class="btn">
+                        Place Order
+                    </button>
+            </div>
+        </selection>
+
+            <selection id="About">
+                        <h1 class="headings"> ABOUT ME </h1>
+                        <img src="AFA.jpg" alt="">
+                        <div id="intro">
+                             <h2>NAADDAI FASHION</h2>
+                             <p>
+                                Naddai fashion Design provides a unique opportunity for arts industry buyers, and art
+                                and design lovers, to purchase art directly from imdigenous owned and incorporated 
+                                Art centres. we aso serve you with Good customer care, and also have the best design with Affordables
+                                prices.
+                            </p>
+                        </div>
+            </selection>
+    
+    
+    </body>
+    </html>
